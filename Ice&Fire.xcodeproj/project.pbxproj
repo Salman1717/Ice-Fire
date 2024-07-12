@@ -11,6 +11,8 @@
 		62FD2DE42C416D0C00118983 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FD2DE32C416D0C00118983 /* ContentView.swift */; };
 		62FD2DE62C416D0D00118983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FD2DE52C416D0D00118983 /* Assets.xcassets */; };
 		62FD2DE92C416D0D00118983 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FD2DE82C416D0D00118983 /* Preview Assets.xcassets */; };
+		62FD2DF02C416D4500118983 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FD2DEF2C416D4500118983 /* ApiHandler.swift */; };
+		62FD2DF22C4175BA00118983 /* CharacterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FD2DF12C4175BA00118983 /* CharacterCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		62FD2DE32C416D0C00118983 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62FD2DE52C416D0D00118983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62FD2DE82C416D0D00118983 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62FD2DEF2C416D4500118983 /* ApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		62FD2DF12C4175BA00118983 /* CharacterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				62FD2DE32C416D0C00118983 /* ContentView.swift */,
 				62FD2DE52C416D0D00118983 /* Assets.xcassets */,
 				62FD2DE72C416D0D00118983 /* Preview Content */,
+				62FD2DEF2C416D4500118983 /* ApiHandler.swift */,
+				62FD2DF12C4175BA00118983 /* CharacterCardView.swift */,
 			);
 			path = "Ice&Fire";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FD2DF22C4175BA00118983 /* CharacterCardView.swift in Sources */,
 				62FD2DE42C416D0C00118983 /* ContentView.swift in Sources */,
+				62FD2DF02C416D4500118983 /* ApiHandler.swift in Sources */,
 				62FD2DE22C416D0C00118983 /* Ice_FireApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

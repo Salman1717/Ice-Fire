@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = ApiHandler()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ScrollView{
+            VStack (spacing: 10){
+                ForEach(viewModel.characters){ character in
+                    if character.family == "House Stark"{
+                        CharacterCardView(imageUrl: character.imageUrl, firstName: character.firstName, lastName: character.lastName)
+                    }
+                }
+            }
+            .padding()
         }
-        .padding()
+        .navigationTitle("Characters")
+        .onAppear{
+            viewModel.fetchApi()
+        }
     }
 }
 
